@@ -52,7 +52,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 65%;
+  font-size: 62.5%;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -116,15 +116,15 @@ a {
   background-color: transparent;
 }
 
-a[href]:not([href=""]):visited {
+a:visited {
   font-style: italic;
 }
 
-a[href]:not([href=""]):hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:not([href=""]):active {
+a:active {
   background-color: var(--color-light-grey);
 }
 

@@ -23,13 +23,13 @@
   --section-title-color: var(--color-black);
 }
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-  font-size: 65%;
+  font-size: 62.5%;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
