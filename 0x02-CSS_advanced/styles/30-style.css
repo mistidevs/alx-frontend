@@ -301,7 +301,6 @@ ul.row {
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
-  height: 105%;
 }
 
 .card-work:hover .card-inner {
@@ -322,7 +321,7 @@ ul.row {
   padding-top: 45%;
 }
 
-.card-work .card-title::after {
+.card-work .card-title a::after {
   content: none;
   position: absolute;
   top: 0;
