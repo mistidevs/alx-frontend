@@ -50,9 +50,6 @@
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
-  --transition-duration: 0.3s;
-  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
-  --scroll-track-color: var(--color-white);
 }
 
 * {
@@ -75,32 +72,10 @@ main {
   --section-title-color: var(--color-white);
   background-color: #161616;
   --button-color: var(--color-white);
-  --scroll-track-color: var(--color-black);
 }
 
 [data-section-theme="dark"] .section-title {
   color: var(--section-title-color);
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent; 
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--color-dark-grey);
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
 }
 
 body {
@@ -164,7 +139,6 @@ body {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -264,15 +238,6 @@ ul.row {
   width: 50%;
 }
 
-#about-us {
-  display: flex;
-  align-items: center;
-}
-
-.col-1-2 img {
-  height: auto;
-}
-
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
@@ -370,15 +335,6 @@ ul.row {
   opacity: 1;
 }
 
-.card-work:hover .card-image {
-  transform: scale(1.2);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
-}
-
-.card-work:hover .card-outer {
-  transform: scale(0.95);
-}
-
 .card-testimonial .card-quote {
   position: relative;
 }
@@ -405,8 +361,6 @@ ul.row {
 .button:hover {
   color: var(--button-hover-color);
   background-color: var(--button-hover-background);
-  transition-property: color, background-color;
-  transition-duration: var(--transition-duration);
 }
 
 #button:hover {
@@ -425,24 +379,6 @@ ul.row {
 
 .footer-address {
   color: var(--text-color);
-}
-
-.footer-nav-item.nav-item:not(:last-child) {
-  margin-right: 1rem;
-}
-
-/* Remove margin from the last item to avoid extra spacing */
-.footer-nav-item.nav-item:last-child {
-  margin-right: 0;
-}
-
-.social-item.nav-item:not(:last-child) {
-  margin-right: 1.2rem;
-}
-
-/* Remove margin from the last item to avoid extra spacing */
-.social-item.nav-item:last-child {
-  margin-right: 0;
 }
 
 .row::after {
