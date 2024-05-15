@@ -1,6 +1,6 @@
 :root {
   --color-primary: #D73953;
-  --color-black: #161616;
+  --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
@@ -64,7 +64,7 @@ main {
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
-  background-color: #161616;
+  background-color: #090909;
   --button-color: var(--color-white);
 }
 
@@ -110,7 +110,7 @@ body {
   color: var(--nav-item-link-hover);
 }
 
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
   background-color: transparent;

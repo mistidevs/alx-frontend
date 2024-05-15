@@ -1,6 +1,6 @@
 :root {
   --color-primary: #D73953;
-  --color-black: #161616;
+  --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
@@ -71,7 +71,7 @@ body {
   text-align: center;
 }
 
-.nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -80,16 +80,16 @@ body {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
   display: block;
   padding: calc(1rem / 2) 1rem;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
   background-color: transparent;
