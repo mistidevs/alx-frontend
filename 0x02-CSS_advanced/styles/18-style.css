@@ -32,7 +32,7 @@
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 calc(3 * 1rem) 0;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -82,7 +82,7 @@ body {
 
 .nav .nav-link {
   display: block;
-  padding: calc(1rem / 2) 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
